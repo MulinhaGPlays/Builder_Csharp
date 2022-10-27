@@ -8,7 +8,7 @@ namespace Food.Builder.Director.Interfaces
 {
     public interface IDirector
     {
-        public void setBuilder();
-        public void IniciateBuilder();
+        public Director SetBuilder();
+        public Director InicializeBuilder();
     }
 }

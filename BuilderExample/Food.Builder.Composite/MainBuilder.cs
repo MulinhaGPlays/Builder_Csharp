@@ -4,30 +4,31 @@ using Food.Builder.Composite.Prato;
 
 namespace Food.Builder.Composite
 {
-    public class MainBuilder : IBuilderProtocol
+    public class MainBuilder : IBuilderProtocol, IFoodBuilderProtocol
     {
         private FoodComposite food = new ();
 
-        void IBuilderProtocol.Reset() => this.food = new FoodComposite();
+        public void Reset() => this.food = new FoodComposite();
 
-        void IBuilderProtocol.MakePrincipal()
+        public void MakePrincipal()
         {
             var Carne = new IngredientComposite("Carne", 5);
             var Cebola = new IngredientComposite("Cebola", 2);
             var Tempero = new IngredientComposite("Tempero", 3);
             this.food.AddAll(Carne, Cebola, Tempero);
         }
-        void IBuilderProtocol.MakeIntermediare()
+        public void MakeIntermediare()
         {
             var Arroz = new IngredientComposite("Arroz", 2);
             this.food.Add(Arroz);
         }
 
-        void IBuilderProtocol.MakeFinale()
+        public void MakeFinale()
         {
             var FeijaoTropeiro = new IngredientComposite("Feijão Tropeiro", 2);
             this.food.Add(FeijaoTropeiro);
             this.food.SetName("Meu Almoço");
         }
+        public FoodComposite MakeParameters() => FoodComposite;
     }
 }

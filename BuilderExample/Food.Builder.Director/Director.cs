@@ -4,16 +4,18 @@
     {
         private MainBuilder builder = new MainBuilder();
 
-        public void setBuilder()
+        public Director SetBuilder()
         {
             builder.Reset();
+            return this;
         }
 
-        public void IniciateBuilder()
+        public Director InicializeBuilder()
         {
             builder.MakePrincipal();
             builder.MakeIntermediare();
             builder.MakeFinale();
+            return this;
         }
     }
 }
