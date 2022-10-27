@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nDEmqy1EpO9qbGD2HTeFE8VJSvAgnhLufnTiDLQJ/tHrJbBaY4QvvFc019mIZFKS2mjCSvuLL0YysbW/GJqinw==",
+  "dgSpecHash": "j5YJXM+HBfYoAAGyt2juDw0QmabfFfP6wZ3unBwNCjwNGdqGyol7YBgrMj4gbyNOvItiFIXghPmlnuWzjErYPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Car.Builder.Director\\Car.Builder.Director.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Car.Builder.Director\\Car.Builder.Director.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

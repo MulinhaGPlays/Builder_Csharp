@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S/Q6o50XiK4q5IJ5iq6UfW1YsN92w82T1UmJtzjTvC2jpJTiXEsNP1JDTd9VV3NOLqps7xTHDqiVh8MmAtCSFw==",
+  "dgSpecHash": "8BatVm3lzN8MVllVnLwzBuD8gHZakxj0fm/7GFYx2fmWlt9U4xQ8UGxTHuwGzADD6bqQ3Vpz0d+qNSWwgaItpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
