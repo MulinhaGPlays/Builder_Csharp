@@ -1,39 +1,88 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Builder.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Builder.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Builder.Infra.dll": {}
+        }
+      },
+      "Food.Builder.Composite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Builder.Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Food.Builder.Composite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Food.Builder.Composite.dll": {}
+        }
+      },
+      "Food.Builder.Director/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Builder.Infra": "1.0.0",
+          "Food.Builder.Composite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Food.Builder.Director.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Food.Builder.Director.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Builder.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Builder.Infra/Builder.Infra.csproj",
+      "msbuildProject": "../Builder.Infra/Builder.Infra.csproj"
+    },
+    "Food.Builder.Composite/1.0.0": {
+      "type": "project",
+      "path": "../Food.Builder.Composite/Food.Builder.Composite.csproj",
+      "msbuildProject": "../Food.Builder.Composite/Food.Builder.Composite.csproj"
+    },
+    "Food.Builder.Director/1.0.0": {
+      "type": "project",
+      "path": "../Food.Builder.Director/Food.Builder.Director.csproj",
+      "msbuildProject": "../Food.Builder.Director/Food.Builder.Director.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
+      "Food.Builder.Composite >= 1.0.0",
+      "Food.Builder.Director >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\android\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+      "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
       "projectName": "Builder.Client",
-      "projectPath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+      "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
       "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
+      "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -46,8 +95,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
-              "projectPath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
+            "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
+              "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj"
+            },
+            "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj": {
+              "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj"
             }
           }
         }
@@ -67,23 +119,18 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

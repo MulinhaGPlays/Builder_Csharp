@@ -4,7 +4,7 @@ namespace Food.Builder.Composite.Interfaces
 {
     public interface IFoodModelProtocol
     {
-        public string Name { get; set; }
-        public List<IngredientComposite> Ingredients { get; set; }
+        public string Name { get; }
+        private List<IngredientComposite> Ingredients { get => Ingredients; }
     }
 }

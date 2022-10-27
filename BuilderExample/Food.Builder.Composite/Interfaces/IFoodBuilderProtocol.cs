@@ -1,4 +1,7 @@
-﻿namespace Food.Builder.Composite.Interfaces
+﻿using Food.Builder.Composite.Ingredients;
+using Food.Builder.Composite.Prato;
+
+namespace Food.Builder.Composite.Interfaces
 {
     public interface IFoodBuilderProtocol
     {

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Food.Builder.Director/1.0.0": {
+        "dependencies": {
+          "Builder.Infra": "1.0.0",
+          "Food.Builder.Composite": "1.0.0"
+        },
+        "runtime": {
+          "Food.Builder.Director.dll": {}
+        }
+      },
+      "Builder.Infra/1.0.0": {
+        "runtime": {
+          "Builder.Infra.dll": {}
+        }
+      },
+      "Food.Builder.Composite/1.0.0": {
+        "dependencies": {
+          "Builder.Infra": "1.0.0"
+        },
+        "runtime": {
+          "Food.Builder.Composite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Food.Builder.Director/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Builder.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Food.Builder.Composite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

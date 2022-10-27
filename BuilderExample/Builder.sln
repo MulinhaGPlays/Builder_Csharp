@@ -9,10 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Food.Builder.Director", "Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.Infra", "Builder.Infra\Builder.Infra.csproj", "{EAD74807-C9CC-4FCA-9817-44AD4B0191AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car.Builder.Composite", "Car.Builder.Composite\Car.Builder.Composite.csproj", "{247C34CB-32D9-4289-85E0-026FE953A658}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car.Builder.Director", "Car.Builder.Director\Car.Builder.Director.csproj", "{5837B5BC-B86E-4CA5-AF31-11C2B48A663F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.Client", "Builder.Client\Builder.Client.csproj", "{94CE499E-73FE-430A-9D6E-D1E5E55E596B}"
 EndProject
 Global
@@ -33,14 +29,6 @@ Global
 		{EAD74807-C9CC-4FCA-9817-44AD4B0191AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD74807-C9CC-4FCA-9817-44AD4B0191AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD74807-C9CC-4FCA-9817-44AD4B0191AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{247C34CB-32D9-4289-85E0-026FE953A658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{247C34CB-32D9-4289-85E0-026FE953A658}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{247C34CB-32D9-4289-85E0-026FE953A658}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{247C34CB-32D9-4289-85E0-026FE953A658}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5837B5BC-B86E-4CA5-AF31-11C2B48A663F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5837B5BC-B86E-4CA5-AF31-11C2B48A663F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5837B5BC-B86E-4CA5-AF31-11C2B48A663F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5837B5BC-B86E-4CA5-AF31-11C2B48A663F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{94CE499E-73FE-430A-9D6E-D1E5E55E596B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94CE499E-73FE-430A-9D6E-D1E5E55E596B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CE499E-73FE-430A-9D6E-D1E5E55E596B}.Release|Any CPU.ActiveCfg = Release|Any CPU

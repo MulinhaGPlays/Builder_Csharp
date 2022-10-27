@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1QnVzNj8Vk+fiDbyEXW92vfTjO9Kskq5lAHhjWdWdFTZiSB4hGAcmeh2gQOjC4kh7W0nW8t/dtYP5iZ+v99gA==",
+  "dgSpecHash": "wNfuATpBZp289E4FuvGSIglb6E89N174x8aYDHk4rr3ztvslejaa/JODCEC4F0gAVH8acZ7x+aC1ktl0ITW0bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

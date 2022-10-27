@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2l3PK/T1A/RSUp8Ec9sLizc443DXOVzM4lpg7Y4tWtsWhILMMdiwrgahE/VsvknWvBWbidmKARpun4GfDVGENw==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+  "dgSpecHash": "NGF1sZZ/uB9/oLuCpe0zPcJC95+e5oFMPUEQD3Bu47RT3E0dEsMkLwBKmCEPKt/1O2FizRTIOGoxgy8IinNJhQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Não é possível encontrar as informações do projeto para 'C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
-      "libraryId": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

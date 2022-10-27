@@ -1,6 +1,8 @@
 ﻿using Builder.Infra.Interfaces;
 using Food.Builder.Composite.Ingredients;
+using Food.Builder.Composite.Interfaces;
 using Food.Builder.Composite.Prato;
+using Food.Builder.Composite.Prato.Interfaces;
 
 namespace Food.Builder.Composite
 {
@@ -16,11 +18,13 @@ namespace Food.Builder.Composite
             var Cebola = new IngredientComposite("Cebola", 2);
             var Tempero = new IngredientComposite("Tempero", 3);
             this.food.AddAll(Carne, Cebola, Tempero);
+            this.food.SetName("Carne Acebolada");
         }
         public void MakeIntermediare()
         {
             var Arroz = new IngredientComposite("Arroz", 2);
             this.food.Add(Arroz);
+            this.food.SetName("Arroz Cozido");
         }
 
         public void MakeFinale()
@@ -29,6 +33,6 @@ namespace Food.Builder.Composite
             this.food.Add(FeijaoTropeiro);
             this.food.SetName("Meu Almoço");
         }
-        public FoodComposite MakeParameters() => FoodComposite;
+        public FoodComposite MakeParameters() => this.food;
     }
 }

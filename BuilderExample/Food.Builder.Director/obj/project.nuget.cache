@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0CC+vqQTmOfJP7ISJ5opr1rAcIXTRMLa5aLQdnO2KyE9Njp++G9zr6JNa2GopCsmAZr8E/UbD2VDIxsZX1dTw==",
+  "dgSpecHash": "Tz/VpRWOB5jJOF/SRQkT4rN0ol6YK9iR7shE8JBExrCw8fEPxNVDVc53dYRXxaw1KbJY0uLhX4OOymlSMJSPLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android\\Documents\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
+  "projectFilePath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

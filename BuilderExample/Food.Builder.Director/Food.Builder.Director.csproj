@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Builder.Infra\Builder.Infra.csproj" />
+    <ProjectReference Include="..\Food.Builder.Composite\Food.Builder.Composite.csproj" />
+  </ItemGroup>
+
 </Project>
