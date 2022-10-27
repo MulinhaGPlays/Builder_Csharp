@@ -1,49 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Builder.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Builder.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Builder.Domain.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Builder.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Builder.Domain/Builder.Domain.csproj",
-      "msbuildProject": "../Builder.Domain/Builder.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Builder.Domain >= 1.0.0"
+      "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
     ]
   },
   "packageFolders": {
     "C:\\Users\\android\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+      "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
       "projectName": "Builder.Client",
-      "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+      "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
       "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\obj\\",
+      "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,8 +43,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
-              "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
+            "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
+              "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
             }
           }
         }
@@ -88,8 +74,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Não é possível encontrar as informações do projeto para 'C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj'. Se você está usando o Visual Studio, isso pode ocorrer porque o projeto não está carregado ou não faz parte da solução atual. Portanto, execute uma restauração usando a linha de comando. Do contrário, o arquivo de projeto pode ser inválido ou pode haver destinos obrigatórios para a restauração ausentes.",
+      "libraryId": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

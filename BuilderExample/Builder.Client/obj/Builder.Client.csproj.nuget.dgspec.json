@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {}
+    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {
+    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
         "projectName": "Builder.Client",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
         "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Client\\obj\\",
+        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
+              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
+                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj"
               }
             }
           }
@@ -62,65 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj",
-        "projectName": "Builder.Domain",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\Builder.Domain.csproj",
-        "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Buider_Csharp\\BuilderExample\\Builder.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
