@@ -5,20 +5,25 @@ namespace Food.Builder.Director
 {
     public class Director : IDirector
     {
-        private readonly MainBuilder builder = new();
-        
-        public Director SetBuilder()
+        private readonly FoodBuilder builder = new();
+
+        public Director SetBuilder(string name = "", int amount = 1)
         {
             builder.Reset();
+            builder.MakeParameters().SetName(name);
+            builder.MakeParameters().SetAmount(amount);
             return this;
         }
         
-        public Director InicializeBuilder()
+        public FoodBuilder InicializeBuilder(bool iniciarComPadroes)
         {
-            builder.MakePrincipal();
-            builder.MakeIntermediare();
-            builder.MakeFinale();
-            return this;
+            if (iniciarComPadroes)
+            {
+                builder.MakePrincipal();
+                builder.MakeIntermediare();
+                builder.MakeFinale();
+            } 
+            return builder;
         }
     }
 }

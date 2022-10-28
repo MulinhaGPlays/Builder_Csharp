@@ -1,9 +1,10 @@
-﻿using Food.Builder.Composite.Prato;
+﻿using Builder.Infra.Interfaces;
+using Food.Builder.Composite.Prato.Interfaces;
 
 namespace Food.Builder.Composite.Interfaces
 {
-    public interface IFoodBuilderProtocol
+    public interface IFoodBuilderProtocol : IBuilderProtocol<IFoodBuilderProtocol>
     {
-        public FoodComposite MakeParameters();
+        public IFoodProtocol MakeParameters();
     }
 }

@@ -5,31 +5,39 @@ namespace Food.Builder.Composite.Prato
 {
     public class FoodComposite : IFoodProtocol
     {
-        public string Name { get; private set; }
-        private List<IIngredientModelProtocol> Ingredients { get; }
+        private string Name { get; set; }
+        private int Amount { get; set; }
+        private List<IIngredientProtocol> Ingredients { get; set; }
 
-        public FoodComposite(string name = "", params IIngredientModelProtocol[] ingredients)
+        public FoodComposite(string name = "", int amount = 1, params IIngredientProtocol[] ingredients)
         {
+            this.Amount = amount;
             this.Name = name;
-            this.Ingredients = new();
+            this.Ingredients = new List<IIngredientProtocol>();
             foreach (var ingredient in ingredients) 
                 this.Ingredients.Add(ingredient);
         }
 
         public void SetName(string name) => this.Name = name;
 
-        public int GetIngredientsAmount() => this.Ingredients.Sum(i => i.Amount);
+        public void SetAmount(int amount) => this.Amount = amount;
+
+        public string GetName() => this.Name;
+
+        public int GetAmount() => this.Amount;
+
+        public int GetIngredientsAmount() => this.Ingredients.Sum(i => i.GetAmount());
 
         public List<string> GetIngredients()
         {
             List<string> ListIngredients = new();
-            this.Ingredients.ForEach(i => ListIngredients.Add(i.Name));
+            this.Ingredients.ForEach(i => ListIngredients.Add(i.GetName()));
             return ListIngredients;
         }
 
-        public void Add(IIngredientModelProtocol ingredient) => this.Ingredients.Add(ingredient);
+        public void Add(IIngredientProtocol ingredient) => this.Ingredients.Add(ingredient);
 
-        public void AddAll(params IIngredientModelProtocol[] ingredients)
+        public void AddAll(params IIngredientProtocol[] ingredients)
         {
             foreach (var ingredient in ingredients) 
                 this.Ingredients.Add(ingredient);

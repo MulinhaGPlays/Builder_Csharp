@@ -1,10 +1,10 @@
 ﻿namespace Builder.Infra.Interfaces
 {
-    public interface IBuilderProtocol
+    public interface IBuilderProtocol<TSource>
     {
-        public void Reset();
-        public void MakePrincipal();
-        public void MakeIntermediare();
-        public void MakeFinale();
+        public TSource Reset();
+        public TSource MakePrincipal();
+        public TSource MakeIntermediare();
+        public TSource MakeFinale();
     }
 }

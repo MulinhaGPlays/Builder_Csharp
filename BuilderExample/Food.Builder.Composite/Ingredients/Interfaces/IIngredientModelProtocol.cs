@@ -2,7 +2,7 @@
 {
     public interface IIngredientModelProtocol
     {
-        public string Name { get; set; }
-        public int Amount { get; set; }
+        string Name { get => this.Name; }
+        int Amount { get => this.Amount; }
     }
 }

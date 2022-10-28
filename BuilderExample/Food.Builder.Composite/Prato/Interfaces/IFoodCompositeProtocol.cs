@@ -7,7 +7,8 @@ namespace Food.Builder.Composite.Prato.Interfaces
         public int GetIngredientsAmount();
         public List<string> GetIngredients();
         public void SetName(string name);
-        public void Add(IIngredientModelProtocol ingredient);
-        public void AddAll(params IIngredientModelProtocol[] ingredients);
+        public void SetAmount(int amount);
+        public void Add(IIngredientProtocol ingredient);
+        public void AddAll(params IIngredientProtocol[] ingredients);
     }
 }
