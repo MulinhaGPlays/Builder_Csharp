@@ -2,7 +2,6 @@
 using Food.Builder.Composite.Ingredients;
 using Food.Builder.Composite.Interfaces;
 using Food.Builder.Composite.Prato;
-using Food.Builder.Composite.Prato.Interfaces;
 
 namespace Food.Builder.Composite
 {
@@ -26,7 +25,6 @@ namespace Food.Builder.Composite
             this.food.Add(Arroz);
             this.food.SetName("Arroz Cozido");
         }
-
         public void MakeFinale()
         {
             var FeijaoTropeiro = new IngredientComposite("Feijão Tropeiro", 2);

@@ -1,4 +1,4 @@
-﻿using Food.Builder.Composite.Ingredients;
+﻿using Food.Builder.Composite.Ingredients.Interfaces;
 using Food.Builder.Composite.Prato.Interfaces;
 
 namespace Food.Builder.Composite.Prato
@@ -6,9 +6,9 @@ namespace Food.Builder.Composite.Prato
     public class FoodComposite : IFoodProtocol
     {
         public string Name { get; private set; }
-        private List<IngredientComposite> Ingredients { get; }
+        private List<IIngredientModelProtocol> Ingredients { get; }
 
-        public FoodComposite(string name = "", params IngredientComposite[] ingredients)
+        public FoodComposite(string name = "", params IIngredientModelProtocol[] ingredients)
         {
             this.Name = name;
             this.Ingredients = new();
@@ -27,9 +27,9 @@ namespace Food.Builder.Composite.Prato
             return ListIngredients;
         }
 
-        public void Add(IngredientComposite ingredient) => this.Ingredients.Add(ingredient);
+        public void Add(IIngredientModelProtocol ingredient) => this.Ingredients.Add(ingredient);
 
-        public void AddAll(params IngredientComposite[] ingredients)
+        public void AddAll(params IIngredientModelProtocol[] ingredients)
         {
             foreach (var ingredient in ingredients) 
                 this.Ingredients.Add(ingredient);

@@ -1,10 +1,10 @@
-﻿using Food.Builder.Composite.Ingredients;
+﻿using Food.Builder.Composite.Ingredients.Interfaces;
 
 namespace Food.Builder.Composite.Interfaces
 {
     public interface IFoodModelProtocol
     {
         public string Name { get; }
-        private List<IngredientComposite> Ingredients { get => Ingredients; }
+        private List<IIngredientModelProtocol> Ingredients { get => Ingredients; }
     }
 }

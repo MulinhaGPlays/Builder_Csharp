@@ -1,5 +1,5 @@
 ﻿using Food.Builder.Composite.Ingredients.Interfaces;
-using System;
+
 namespace Food.Builder.Composite.Ingredients
 {
     public class IngredientComposite : IIngredientModelProtocol

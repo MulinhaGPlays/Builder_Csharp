@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {}
+    "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {
+    "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+        "projectUniqueName": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
         "projectName": "Builder.Client",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
-        "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
+        "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\Builder.Client.csproj",
+        "packagesPath": "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\SDKs\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MulinhaGPlays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj"
+              "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
+                "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj"
               },
-              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj"
+              "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj": {
+                "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj"
               }
             }
           }
@@ -65,24 +67,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
+    "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
         "projectName": "Builder.Infra",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
-        "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\obj\\",
+        "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj",
+        "packagesPath": "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\SDKs\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MulinhaGPlays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,6 +93,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,24 +127,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
+    "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
+        "projectUniqueName": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
         "projectName": "Food.Builder.Composite",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
-        "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\obj\\",
+        "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj",
+        "packagesPath": "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\SDKs\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MulinhaGPlays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,14 +153,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj"
+              "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
+                "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj"
               }
             }
           }
@@ -185,24 +191,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj": {
+    "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
+        "projectUniqueName": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
         "projectName": "Food.Builder.Director",
-        "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
-        "packagesPath": "C:\\Users\\android\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\obj\\",
+        "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\Food.Builder.Director.csproj",
+        "packagesPath": "C:\\Users\\MulinhaGPlays\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Director\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\SDKs\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\android\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MulinhaGPlays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,17 +217,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj"
+              "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj": {
+                "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Builder.Infra\\Builder.Infra.csproj"
               },
-              "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
-                "projectPath": "C:\\Users\\android\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj"
+              "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj": {
+                "projectPath": "C:\\Users\\MulinhaGPlays\\Documents\\GitHub\\Builder_Csharp\\BuilderExample\\Food.Builder.Composite\\Food.Builder.Composite.csproj"
               }
             }
           }
@@ -250,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

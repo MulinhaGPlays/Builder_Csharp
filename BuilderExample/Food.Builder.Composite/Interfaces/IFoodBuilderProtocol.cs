@@ -1,5 +1,4 @@
-﻿using Food.Builder.Composite.Ingredients;
-using Food.Builder.Composite.Prato;
+﻿using Food.Builder.Composite.Prato;
 
 namespace Food.Builder.Composite.Interfaces
 {

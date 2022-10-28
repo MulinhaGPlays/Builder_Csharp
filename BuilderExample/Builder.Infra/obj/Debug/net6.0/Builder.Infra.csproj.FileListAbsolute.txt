@@ -10,3 +10,15 @@ C:\Users\android\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\ob
 C:\Users\android\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\refint\Builder.Infra.dll
 C:\Users\android\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.pdb
 C:\Users\android\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\ref\Builder.Infra.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\bin\Debug\net6.0\Builder.Infra.deps.json
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\bin\Debug\net6.0\Builder.Infra.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\bin\Debug\net6.0\Builder.Infra.pdb
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.csproj.AssemblyReference.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.AssemblyInfoInputs.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.AssemblyInfo.cs
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.csproj.CoreCompileInputs.cache
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\refint\Builder.Infra.dll
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\Builder.Infra.pdb
+C:\Users\MulinhaGPlays\Documents\GitHub\Builder_Csharp\BuilderExample\Builder.Infra\obj\Debug\net6.0\ref\Builder.Infra.dll
